@@ -1,0 +1,35 @@
+#include <bits/stdc++.h>
+#include <string>
+#include <sstream>
+#include <cmath>
+
+int solve(int t) {
+    
+    std::string n;
+    std::cin >> n;
+
+    std::stringstream ss(n);
+    char del = ' ';
+    std::string z;
+    
+    int sum = 0;
+    while (std::getline(ss, z, del)) {
+        std::cout << z << std::endl;
+    }
+
+    return 0;
+
+}
+
+int main() {
+    
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(0);
+    
+    int t;
+    std::cin >> t;
+    
+    int count = 0;
+    while (t--) count += solve(t);
+
+}
